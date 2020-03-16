@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<java-demo_163b276e>",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-demo_163b276e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-member<java-demo_163b276e>",
+            "request": "launch",
+            "mainClass": "member",
+            "projectName": "java-demo_163b276e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pritest<java-demo_163b276e>",
+            "request": "launch",
+            "mainClass": "pritest",
+            "projectName": "java-demo_163b276e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pritry<java-demo_163b276e>",
+            "request": "launch",
+            "mainClass": "pritry",
+            "projectName": "java-demo_163b276e"
+        }
+    ]
+}
