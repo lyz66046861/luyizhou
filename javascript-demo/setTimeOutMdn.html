@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<p onclick="tmo()">Waiter</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		console.log("Begin")
+		var tmo = function() {
+			console.log("onClickEXE")
+			setTimeout(function() {
+				console.log("Ready")
+			}, 1000)
+		}
+		console.log("LogicEnd")
+	</script>
+</html>

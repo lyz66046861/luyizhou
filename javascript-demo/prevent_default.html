@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>Please click on the checkbox control.</p>
+		
+		<form>
+		  <label for="id-checkbox">Checkbox:</label>
+		  <input type="checkbox" id="id-checkbox"/>
+		</form>
+		
+		<div id="output-box"></div>
+	</body>
+	<script type="text/javascript">
+		document.getElementById("id-checkbox").addEventListener("click",function(event){
+			event.preventDefault()
+			document.getElementById("output-box").innerHTML += "prevented"+event.target+"<br>"
+		})
+	</script>
+</html>
